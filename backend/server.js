@@ -24,6 +24,7 @@ app.use(cors({
   credentials: true,
 }));
 
+app.options('*', cors());
 
 //  Api Endpoints
 app.use("/api/user", userRouter);
