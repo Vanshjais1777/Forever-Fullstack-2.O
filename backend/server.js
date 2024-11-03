@@ -18,7 +18,7 @@ connectCloudinary();
 app.use(express.json());
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174'], // local frontend and admin frontend origins
+  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://forever-fullstack-2-o-frontend.onrender.com', 'https://forever-fullstack-2-o-admin.onrender.com'], // local frontend and admin frontend origins
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'token'],
   credentials: true,
