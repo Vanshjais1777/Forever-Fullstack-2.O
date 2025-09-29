@@ -22,8 +22,6 @@ Forever is a full-stack e-commerce platform built with the MERN stack (MongoDB, 
 ### Admin Dashboard
 - 📊 Comprehensive order management
 - 📝 Product inventory management
-- 📈 Sales analytics and reporting
-- 👥 Customer data management
 - 🏷️ Category and tag management
 - 🖼️ Image upload and management via Cloudinary
 
